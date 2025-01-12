@@ -129,3 +129,15 @@ The application does not currently use Docker. To run it locally, follow the ste
 `http://localhost:8000/docs`
 
 to access the Swagger documentation.
+
+
+## Running the Tests
+To verify the application’s functionality, run the test suite using pytest. The test cases are located in the tests/test_routes.py file.
+
+1. **Install pytest (if not already installed)**:
+
+`pip install pytest`
+
+2. **Run the tests**:
+
+`pytest tests/test_routes.py`
